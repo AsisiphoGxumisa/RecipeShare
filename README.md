@@ -22,9 +22,17 @@ A simple RESTful API for managing recipes. Built with ASP.NET Core.
 - Start the project
 - You can use Swagger to test the API by providing a payload or user the Frontend for a UI
 
+## Database Setup
+To set up the database:
+- Open SQL Server Management Studio.
+- Create a new database.
+- Run the script in `database/RecipeDb.sql`.
+
 ## Benchmark Results
 Total Time: 8407 ms
 Average Latency: 16,814 ms/request
 
 ## Walk through video on Loom
 https://www.loom.com/share/478b981a6b924555af25935183c22d5e?sid=5792500b-8d13-49c3-b5bc-ded5d197e83a
+
+
