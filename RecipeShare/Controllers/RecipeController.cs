@@ -15,7 +15,7 @@ namespace RecipeShare.Controllers
             _recipeService = recipeService;
         }
 
-        [HttpGet]
+        [HttpGet] 
         public async Task<IActionResult> GetRecipes([FromQuery] string? dietaryTag)
         {
             var recipes = await _recipeService.GetAllRecipesAsync(dietaryTag);
